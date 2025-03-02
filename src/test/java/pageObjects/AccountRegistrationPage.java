@@ -103,7 +103,8 @@ public void clickContinue() {
 public String getConfirmationMsg() {
 	try {
 		return (msgConfirmation.getText());
-	} catch (Exception e) {
+	}
+	catch (Exception e) {
 		return (e.getMessage());
 
 	}
